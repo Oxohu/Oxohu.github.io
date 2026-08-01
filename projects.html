@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Nafisat Abdulsalam</title>
+  <meta name="description" content="Projects by Nafisat Abdulsalam spanning medical imaging, medical devices, robotics, and embedded AIoT systems.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="index.html" class="nav-logo">Nafisat <span>Abdulsalam</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true">
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="publications.html" class="nav-link">Publications</a>
+        <a href="news.html" class="nav-link">News</a>
+        <a href="cv.html" class="nav-link">CV</a>
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Contact</a>
+      </div>
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span><span></span><span></span></label>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== PAGE HERO ==================== -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Selected Work</span>
+        <h1>Projects</h1>
+        <p>Eight projects spanning medical imaging, medical devices, robotics, and embedded AIoT systems.</p>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECT LIST ==================== -->
+    <section class="section">
+      <div class="container">
+
+        <!-- OpenMRS RIS -->
+        <article class="project-large" id="openmrs-ris">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-ongoing">Ongoing</span>
+            <h3>OpenMRS RIS</h3>
+            <p class="card-desc">A Radiology Information System module built on top of OpenMRS, the open-source electronic medical record platform, connecting radiology workflows directly to patient records.</p>
+            <ul class="objectives-list">
+              <li>Enable structured radiology reporting within OpenMRS</li>
+              <li>Integrate imaging metadata into existing patient records</li>
+              <li>Support radiology workflows in low-resource clinical settings</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">OpenMRS</span><span class="tag">Java</span><span class="tag">REST APIs</span><span class="tag">HL7 / DICOM</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="#" class="btn btn-sm btn-ghost">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- SurgBridge AI -->
+        <article class="project-large" id="surgbridge-ai">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-planning">Planning</span>
+            <h3>SurgBridge AI</h3>
+            <p class="card-desc">An AI-assisted decision-support layer designed to bridge pre-operative planning data with the surgical team, keeping the right information visible at the right moment.</p>
+            <ul class="objectives-list">
+              <li>Unify pre-operative imaging and planning data into one view</li>
+              <li>Provide real-time decision support during surgical workflows</li>
+              <li>Reduce information gaps between planning and operating room teams</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">Computer Vision</span><span class="tag">Cloud APIs</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="#" class="btn btn-sm btn-ghost">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AutoPET -->
+        <article class="project-large" id="autopet">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-ongoing">Ongoing</span>
+            <h3>AutoPET</h3>
+            <p class="card-desc">Automated tumor and lesion segmentation on whole-body PET/CT imaging, aimed at reducing the manual workload of oncology scan review.</p>
+            <ul class="objectives-list">
+              <li>Segment lesions automatically across whole-body PET/CT scans</li>
+              <li>Benchmark segmentation architectures on volumetric medical data</li>
+              <li>Explore uncertainty-aware outputs to support clinical review</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">PyTorch</span><span class="tag">MONAI</span><span class="tag">nnU-Net</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="#" class="btn btn-sm btn-ghost">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PHYSICIAN -->
+        <article class="project-large" id="physician">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-ongoing">Ongoing</span>
+            <h3>PHYSICIAN</h3>
+            <p class="card-desc">An LLM-based robot manipulation system built around a Verification-in-the-Loop (ViL) pipeline, so generated action plans are checked before a robot ever executes them.</p>
+            <ul class="objectives-list">
+              <li>Translate natural-language instructions into robot manipulation plans</li>
+              <li>Verify each planned action before execution via the ViL pipeline</li>
+              <li>Reduce unsafe or failed manipulation attempts in unstructured settings</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">LLMs</span><span class="tag">ROS</span><span class="tag">Python</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="#" class="btn btn-sm btn-ghost">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- BUSI Segmentation -->
+        <article class="project-large" id="busi-segmentation">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-ongoing">Writing</span>
+            <h3>BUSI Segmentation</h3>
+            <p class="card-desc">A comparative study of U-Net and Attention U-Net for breast ultrasound image segmentation on the BUSI dataset, written up as an IEEEtran-formatted paper.</p>
+            <ul class="objectives-list">
+              <li>Benchmark U-Net against Attention U-Net on the BUSI dataset</li>
+              <li>Evaluate segmentation accuracy for breast lesion boundaries</li>
+              <li>Contribute toward more accessible breast-cancer screening tools</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">PyTorch</span><span class="tag">OpenCV</span><span class="tag">BUSI Dataset</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="publications.html" class="btn btn-sm btn-ghost">Paper</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- HC18 Segmentation -->
+        <article class="project-large" id="hc18-segmentation">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-ongoing">Ongoing</span>
+            <h3>HC18 Segmentation</h3>
+            <p class="card-desc">A fetal ultrasound segmentation pipeline on the HC18 dataset comparing four architectures, paired with a novel Reliability Score that combines multiple uncertainty metrics.</p>
+            <ul class="objectives-list">
+              <li>Compare U-Net, Attention U-Net, U-Net++, and an nnU-Net-style model</li>
+              <li>Introduce a Reliability Score for clinically trustworthy predictions</li>
+              <li>Optimize training efficiency, running at 50 epochs instead of the default 100</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">PyTorch</span><span class="tag">Kaggle</span><span class="tag">HC18 Dataset</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="#" class="btn btn-sm btn-ghost">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Aqua-Life -->
+        <article class="project-large" id="aqua-life">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-complete">Complete</span>
+            <h3>Aqua-Life</h3>
+            <p class="card-desc">An automated, real-time monitoring system for African catfish farming, built on a Raspberry Pi 4 and ESP32 with a full user manual and setup guide.</p>
+            <ul class="objectives-list">
+              <li>Monitor water quality and fish health in real time</li>
+              <li>Build a sensor-to-cloud data pipeline via ESP32 and Raspberry Pi 4</li>
+              <li>Document a clear setup guide for non-technical end users</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Raspberry Pi 4</span><span class="tag">ESP32</span><span class="tag">IoT Sensors</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="#" class="btn btn-sm btn-ghost">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3D Printed Catalytic Converter -->
+        <article class="project-large" id="catalytic-converter">
+          <div class="card-image">
+            Project Preview
+            <span class="corner-tl"></span><span class="corner-br"></span>
+          </div>
+          <div class="project-large-body">
+            <span class="status-badge status-ongoing">Writing</span>
+            <h3>3D-Printed Catalytic Converter</h3>
+            <p class="card-desc">A 3D-printed, mullite-based catalytic converter designed to reduce tricycle exhaust emissions, documented in a formally formatted engineering manuscript.</p>
+            <ul class="objectives-list">
+              <li>Design and 3D-print a mullite-based catalytic converter substrate</li>
+              <li>Evaluate emission reduction for tricycle (keke) exhaust systems</li>
+              <li>Document the manufacturing process and material properties</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">3D Printing</span><span class="tag">Mullite Ceramics</span><span class="tag">CAD</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="publications.html" class="btn btn-sm btn-ghost">Paper</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Interested in collaborating?</h2>
+          <p>I'm always open to conversations about medical imaging, embedded AI, and robotics research.</p>
+          <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="grid footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">Nafisat <span>Abdulsalam</span></div>
+          <p class="footer-tagline">Mechatronics engineering student and AI researcher working on medical imaging, medical devices, and the AI of Things.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="GitHub">GH</a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">In</a>
+            <a href="#" class="social-icon" aria-label="Google Scholar">GS</a>
+            <a href="#" class="social-icon" aria-label="ORCID">OR</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <a href="news.html">News</a>
+          <a href="cv.html">CV</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Based At</h4>
+          <p class="footer-address">Federal University of Technology, Minna<br>Niger State, Nigeria</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Nafisat Abdulsalam. All rights reserved.</span>
+        <span>Last updated: August 2026</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
